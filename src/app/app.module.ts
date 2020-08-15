@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { MemoryShareComponent } from './memory-share/memory-share.component';
 import { FundraiserComponent } from './fundraiser/fundraiser.component';
 import { ResourcesComponent } from './resources/resources.component';
+import { ZoomComponent } from './zoom/zoom.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ResourcesComponent } from './resources/resources.component';
     LoginComponent,
     MemoryShareComponent,
     FundraiserComponent,
-    ResourcesComponent
+    ResourcesComponent,
+    ZoomComponent
   ],
   imports: [
     BrowserModule
