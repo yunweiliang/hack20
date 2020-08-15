@@ -7,6 +7,10 @@ import { MemoryShareComponent } from './memory-share/memory-share.component';
 import { FundraiserComponent } from './fundraiser/fundraiser.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { ZoomComponent } from './zoom/zoom.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { ZoomComponent } from './zoom/zoom.component';
     ZoomComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
