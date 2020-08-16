@@ -1,9 +1,44 @@
-#image {
-    background-color: #cfc ;
+.mock-image {
+    width: 100%;
+    height: 167px; 
+    background-color: #C4c4c4;
 }
 
-#navbar {
-    width: 100%;
-    height: 69px;
-    background-color: #2e2c2c;
+#fund-status-description {
+    margin-left: 30px;
+}
+
+#fund-donors, #fund-shares{
+    display: inline-block;
+}
+
+#middle-container {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#action {
+text-align: center;
+}
+#action button {
+    margin: 0px 30px;
+    
+}
+
+.individual-donation {
+    background-color:  #c4c4c4;
+    margin: 0px;
+}
+
+#fundraiser-info, #donation-list {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+#updates {
+    width: 323px; 
+    height: 162px;
+    margin: 20px auto;
+    background-color: #F2f2f2;
+    padding: 10px 10px;
 }
