@@ -1,0 +1,24 @@
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4E7083;
+    height: 92%;
+}
+
+h1 {
+    text-align: center;
+}
+
+mat-form-field {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    margin-bottom: 10px;
+}

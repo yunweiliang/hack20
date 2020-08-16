@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { IndividualComponent } from './individual/individual.component';
 import { ZoomComponent } from './zoom/zoom.component';
 import { GetStartedComponent } from './get-started/get-started.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   { path: 'fundraise', component: FundraiserComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent},
   { path: 'home', component: HomeComponent},
   { path: 'zoom', component: ZoomComponent},
-  { path: '', component: GetStartedComponent}
+  { path: '', component: GetStartedComponent},
+  { path: 'signup', component: LoginComponent}
 ];
 
 @NgModule({
