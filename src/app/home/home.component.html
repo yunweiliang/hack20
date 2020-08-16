@@ -1,1 +1,5 @@
 <p>Hi Jane, we are here to help.</p>>
+
+<div *ngFor="let note of notes | async">
+    <h3>{{ note | json }}</h3>
+</div>

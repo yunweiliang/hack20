@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { environment } from '../environments/environment';
+import { AngularFireModule } from 'angularfire2';
+export const config = environment.firebaseConfig;
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+
 import { AppComponent } from './app.component';
 import { IndividualComponent } from './individual/individual.component';
 import { MemoryShareComponent } from './memory-share/memory-share.component';
@@ -36,7 +41,10 @@ import { LoginComponent } from './login/login.component';
     MatInputModule,
     MatButtonModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+
+    AngularFireModule.initializeApp(config),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
