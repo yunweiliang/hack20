@@ -13,6 +13,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MemoryShareComponent,
     FundraiserComponent,
     ResourcesComponent,
-    ZoomComponent
+    ZoomComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
