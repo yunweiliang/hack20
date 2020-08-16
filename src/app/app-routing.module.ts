@@ -7,7 +7,7 @@ import { MemoryShareComponent } from './memory-share/memory-share.component';
 
 const routes: Routes = [
   { path: 'fundraise', component: FundraiserComponent},
-  { path: 'login', component: LoginComponent},
+  { path: '', component: LoginComponent},
   { path: 'resources', component: ResourcesComponent},
   { path: 'memories', component: MemoryShareComponent}
 ];

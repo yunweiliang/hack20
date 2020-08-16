@@ -1,23 +1,27 @@
 #resources-options {
-    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
 }
 
-#resources-options a {
-    margin: 50px 25px;
+div {
+    display: flex;
+    justify-content: center;
 }
 
-#resources-cards {
-    margin: 0px 30px;
-}
 .resource-card {
     background-color: #c4c4c4;
-    width: 152px;
-    height: 140px;
     display: inline-block;
     margin: 20px 15px;
+    text-align: center;
 }
 
-.resource-card p {
-    text-align: center;
-    margin: 50px 0px;
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-flow: row wrap;
 }
