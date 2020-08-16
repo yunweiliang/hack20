@@ -1,5 +1,5 @@
 #resources-options {
-    margin: 60px auto;
+    margin: 80px auto;
 }
 
 #resources-options a {
@@ -19,5 +19,5 @@
 
 .resource-card p {
     text-align: center;
-    vertical-align: center;
+    margin: 50px 0px;
 }
