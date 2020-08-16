@@ -1,39 +1,35 @@
 <div>
-    <mat-tab-group id="resource options">
+    <mat-tab-group mat-stretch-tabs id="resources-options">
         <mat-tab label="Counselors">
         <div class="box">
-            <mat-card  class="resource-card">
-                <mat-card-header>
-                <mat-card-title>Psych Central</mat-card-title>
-                </mat-card-header>
+            <mat-card (click)="goToUrl()" class="resource-card">
+                <strong>Psych Central</strong> 
+            </mat-card>
+            <mat-card (click)="goToUrl()" class="resource-card">
+                <strong>Seize the awkward</strong> 
             </mat-card>
             <mat-card  class="resource-card">
-                <mat-card-header>
-                <mat-card-title>Head Space</mat-card-title>
-                </mat-card-header>
+                <strong>Head Space</strong> 
             </mat-card>
-            <mat-card  class="resource-card">
-                <mat-card-header>
-                <mat-card-title>More Resources coming</mat-card-title>
-                </mat-card-header>
+            <mat-card (click)="goToUrl()" class="resource-card">
+                <strong>More Resources Coming</strong> 
             </mat-card>
         </div>
         </mat-tab>
         <mat-tab label="Group Therapy">
         <div class="box">
-            <mat-card  class="resource-card">
-                <mat-card-header>
-                <mat-card-title>Seize the awkward</mat-card-title>
-                </mat-card-header>
+            <mat-card (click)="goToUrl()" class="resource-card">
+                <strong>Seize the awkward</strong> 
+            </mat-card>
+            <mat-card (click)="goToUrl()" class="resource-card">
+                <strong>More Resources Coming</strong> 
             </mat-card>
         </div>
         </mat-tab>
         <mat-tab label="COVID-19">
             <div class="box">
-                <mat-card  class="resource-card">
-                    <mat-card-header>
-                    <mat-card-title>More Resources coming</mat-card-title>
-                    </mat-card-header>
+                <mat-card (click)="goToUrl()" class="resource-card">
+                    <strong>More Resources Coming</strong> 
                 </mat-card>
             </div>
         </mat-tab>

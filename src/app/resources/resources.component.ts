@@ -12,4 +12,7 @@ export class ResourcesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToUrl() {
+    window.open("https://www.google.com", "_blank");
+  }
 }

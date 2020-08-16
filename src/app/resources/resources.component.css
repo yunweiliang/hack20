@@ -1,20 +1,13 @@
-#resources-options {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
-}
-
 div {
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .resource-card {
+    width: 100px;
+    height: 100px;
     background-color: #c4c4c4;
-    display: inline-block;
     margin: 20px 15px;
     text-align: center;
 }
@@ -23,5 +16,10 @@ div {
     display: flex;
     justify-content: space-evenly;
     height: 100%;
-    flex-flow: row wrap;
+}
+#resources-options {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
 }
