@@ -5,14 +5,11 @@ div {
     background-color: #4E7083;
 }
 
-
-
 .resource-card {
-    width: 100px;
-    height: 100px;
     background-color: #c4c4c4;
     margin: 20px 15px;
     text-align: center;
+    width: 200px;
 }
 
 .box {
@@ -27,3 +24,6 @@ div {
     border-radius: 8px;
 }
 
+#img {
+    background-color: white;
+}

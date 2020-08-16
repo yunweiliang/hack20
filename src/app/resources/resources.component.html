@@ -2,11 +2,27 @@
     <mat-tab-group mat-stretch-tabs id="resources-options">
         <mat-tab  label="Counselors">
         <div class="box">
-            <mat-card (click)="goToUrl()" class="resource-card">
-                <strong>Psych Central</strong> 
+            <mat-card class="resource-card">
+                <img mat-card-image src="../../assets/seizeTheAwkward.png" alt="Seize the Awkward">
+                <strong>Seize the Awkward</strong>
+                <mat-card-content>
+                  <p>
+                    Seize the Awkward campaign has garnered over 7.5 million video views and over 87,000 sessions on their website. With exposure via posters, a series of excellent videos featuring prominent YouTube influencers, and a whole group of exciting new partnerships rolling out throughout September for Suicide Prevention Month, the campaign is finding new ways to bring people closer to talking to their friends about mental health.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button color="primary" (click)="goToUrl()" >VISIT WEBSITE</button>
+                  </mat-card-actions>
             </mat-card>
-            <mat-card (click)="goToUrl()" class="resource-card">
-                <strong>Seize the awkward</strong> 
+            <mat-card class="resource-card">
+                <img mat-card-image src="../../assets/psychCentral.png" alt="Psych Central" id = "img">
+                <strong>Psych Central</strong>
+                <mat-card-content>
+                  <p>Psych Central is the Internet's largest and oldest independent mental health online resource. Since 1995, our award-winning website has been run by mental health professionals offering reliable, trusted information and over 250 support groups to individuals struggling with a problem in their lives.                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button color="primary" (click)="goToUrl()" >VISIT WEBSITE</button>
+                  </mat-card-actions>
             </mat-card>
             <mat-card  class="resource-card">
                 <strong>Head Space</strong> 
