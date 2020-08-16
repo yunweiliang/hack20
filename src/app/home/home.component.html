@@ -1,6 +1,13 @@
 <h2>Hi Jane, we are here to help.</h2>
-<div *ngFor="let note of notes | async">
-    <h3>{{ note | json }}</h3>
+
+<div class='square' style="width: 100%">
+    <ul class='cloud'>
+        <li *ngFor="let note of notes | async">
+            {{ (note)?.word }} - {{ note.why }}
+        </li>
+    </ul>
+</div>
+
 <div>
     <mat-card class="card" [routerLink]="['/memorial']">
         <mat-card-header>

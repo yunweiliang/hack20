@@ -15,17 +15,17 @@ interface Note {
 })
 
 export class HomeComponent implements OnInit {
-  peopleCollection: AngularFirestoreCollection<Note>;
+  descriptionsCollection: AngularFirestoreCollection<Note>;
   notes: Observable<Note[]>;
 
-  constructor(private afs: AngularFirestore) { 
+  constructor(private afs: AngularFirestore) {
   }
 
   ngOnInit(): void {
     
-    this.peopleCollection = this.afs.collection('people');
+    this.descriptionsCollection = this.afs.collection('descriptions');
 
-    this.notes = this.peopleCollection.valueChanges();
+    this.notes = this.descriptionsCollection.valueChanges();
     this.notes.subscribe(item => console.log(item));
   }
 
