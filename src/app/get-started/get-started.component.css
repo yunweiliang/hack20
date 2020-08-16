@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D4654;
+    height: 100%;
+    flex-flow: column;
+}
+
+img {
+    margin-top: 5%;
+    height: 50%;
+    width: 50%;
+}
+
+button {
+    margin-top: 5%;
+    width: 20%;
+}

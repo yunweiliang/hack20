@@ -1,7 +1,28 @@
+<h1>Who did you lose?</h1>
 <div class="centered">
     <mat-form-field >
-        <mat-label>Celebrated Individual</mat-label>
+        <mat-label>Name</mat-label>
         <input matInput>
     </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Location</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Date (Birth to Passing)</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>About</mat-label>
+        <textarea matInput></textarea>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Fundraiser Link</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
     <button mat-raised-button [routerLink]="['/home']">Enter</button>
 </div>

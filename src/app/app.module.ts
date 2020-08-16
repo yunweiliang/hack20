@@ -21,6 +21,9 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { GetStartedComponent } from './get-started/get-started.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,8 @@ import { LoginComponent } from './login/login.component';
     ZoomComponent,
     ProfileComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    GetStartedComponent
   ],
   imports: [
     BrowserModule,
@@ -42,9 +46,10 @@ import { LoginComponent } from './login/login.component';
     MatButtonModule,
     MatCardModule,
     MatTabsModule,
-
     AngularFireModule.initializeApp(config),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    MatFormFieldModule,
+    MatDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

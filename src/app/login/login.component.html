@@ -1,1 +1,28 @@
-<p>login works!</p>
+<h1>Sign Up</h1>
+<div class="centered">
+    <mat-form-field >
+        <mat-label>Name</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Phone Number</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Date of Birth</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button [routerLink]="['/create']">Next</button>
+</div>
