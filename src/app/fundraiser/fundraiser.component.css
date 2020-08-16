@@ -4,6 +4,16 @@
     background-color: #C4c4c4;
 }
 
+.line {
+    width: 96px;
+    height: 1px; 
+    background-color: #000000;
+}
+
+#fund-status {
+    margin-top: 50px;
+}
+
 #fund-status-description {
     margin-left: 30px;
 }
@@ -21,7 +31,15 @@
 text-align: center;
 }
 #action button {
-    margin: 0px 30px;
+    margin: 20px 30px;
+    text-decoration:none;
+    border: none;
+    background-color: #c4c4c4;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     
 }
 
@@ -32,7 +50,12 @@ text-align: center;
 
 #fundraiser-info, #donation-list {
     display: inline-block;
-    margin: 0px 20px;
+    padding: 0px 15px;
+    vertical-align: top;
+}
+.individual-donation {
+    padding: 5px 20px;
+    margin-top: 5px;
 }
 
 #updates {
