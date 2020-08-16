@@ -1,0 +1,23 @@
+#resources-options {
+    margin: 60px auto;
+}
+
+#resources-options a {
+    margin: 50px 25px;
+}
+
+#resources-cards {
+    margin: 0px 30px;
+}
+.resource-card {
+    background-color: #c4c4c4;
+    width: 152px;
+    height: 140px;
+    display: inline-block;
+    margin: 20px 15px;
+}
+
+.resource-card p {
+    text-align: center;
+    vertical-align: center;
+}
