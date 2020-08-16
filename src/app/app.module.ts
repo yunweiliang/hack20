@@ -17,6 +17,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { GetStartedComponent } from './get-started/get-started.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     ZoomComponent,
     ProfileComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    GetStartedComponent
   ],
   imports: [
     BrowserModule,
