@@ -19,6 +19,7 @@ import { LoginComponent } from './login/login.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { GetStartedComponent } from './get-started/get-started.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatCarouselModule } from '@ngmodule/material-carousel';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
     MatCardModule,
     MatTabsModule,
     MatFormFieldModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatCarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
