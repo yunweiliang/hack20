@@ -1,4 +1,4 @@
-<h2>Hi Jane, we are here to help.</h2>
+<h2>Hi {{name}}, we are here to help.</h2>
 
 <div class='square' style="width: 100%">
     <ul class='cloud'>
@@ -9,28 +9,30 @@
 </div>
 
 <div>
-    <mat-card class="card" [routerLink]="['/memorial']">
+    <mat-card class="card" *ngFor="let card of cardList "[routerLink]=card.routerLink>
         <mat-card-header>
-            <mat-card-title>Memorial</mat-card-title>
+            <mat-card-title>{{card.header}}</mat-card-title>
         </mat-card-header>
         <mat-card-content>
             <p>
-                Visit John Smith’s memorial page <br>
-                Share photos & videos
-            </p>
-      </mat-card-content>
-    </mat-card>
-    <mat-card class="card" [routerLink]="['/fundraise']">
-        <mat-card-header>
-            <mat-card-title>Fundraiser</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-            <p>
-                Share fundraiser to social media <br>
-                Donate to support the family
+               {{card.content1}}
+               <br>
+               {{card.content2}}
             </p>
         </mat-card-content>
     </mat-card>
+    
+    <mat-card-header>
+        <mat-card-title>Fundraiser</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+        <p>
+                Share fundraiser to social media <br>
+                Donate to support the family
+        </p>
+    </mat-card-content>
+  
     <mat-card class="card" [routerLink]="['/zoom']">
         <mat-card-header>
             <mat-card-title>Zoom</mat-card-title>
@@ -42,6 +44,7 @@
             </p>
         </mat-card-content>
     </mat-card>
+    
     <mat-card class="card" [routerLink]="['/resources']">
         <mat-card-header>
             <mat-card-title>Mental Health</mat-card-title>
