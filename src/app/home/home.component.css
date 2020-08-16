@@ -1,0 +1,24 @@
+.card {
+    background-color: #FFFFFF;
+    margin: 20px 15px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 92%;
+    background-color: #4E7083;
+}
+
+mat-card-content p  {
+    color: #8B8B8B;
+}
