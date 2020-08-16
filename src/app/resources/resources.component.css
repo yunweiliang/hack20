@@ -5,6 +5,10 @@ div {
     background-color: #4E7083;
 }
 
+h1 {
+    text-align: center;
+}
+
 .resource-card {
     background-color: #c4c4c4;
     margin: 20px 15px;
