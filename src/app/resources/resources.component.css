@@ -2,7 +2,10 @@ div {
     display: flex;
     justify-content: center;
     height: 100%;
+    background-color: #4E7083;
 }
+
+
 
 .resource-card {
     width: 100px;
@@ -23,3 +26,4 @@ div {
     flex-wrap: wrap;
     border-radius: 8px;
 }
+

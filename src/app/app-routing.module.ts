@@ -4,12 +4,14 @@ import { FundraiserComponent } from './fundraiser/fundraiser.component';
 import { LoginComponent } from './login/login.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { MemoryShareComponent } from './memory-share/memory-share.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   { path: 'fundraise', component: FundraiserComponent},
   { path: '', component: LoginComponent},
   { path: 'resources', component: ResourcesComponent},
-  { path: 'memories', component: MemoryShareComponent}
+  { path: 'memories', component: MemoryShareComponent},
+  { path: 'profile', component: ProfileComponent}
 ];
 
 @NgModule({
